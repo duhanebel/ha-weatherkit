@@ -1,0 +1,7 @@
+{
+  "name": "Apple WeatherKit Fork",
+  "content_in_root": true,
+  "domains": ["custom_weatherkit"],
+  "iot_class": "Cloud Polling"
+}
+

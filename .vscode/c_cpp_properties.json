@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Z-Uno2",
+            "includePath": [
+                "/Users/dune/Development/Arduino/z-uno_components/Z-Uno2/hardware/cores/**",
+                "/Users/dune/Development/Arduino/z-uno_components/Z-Uno2/hardware/libraries/**",
+                "/Users/dune/Development/Arduino/z-uno_components/Z-Uno2/tools/gcc/lib/gcc/arm-none-eabi/7.2.1/include/**",
+                "/Users/dune/Development/Arduino/z-uno_components/Z-Uno2/tools/inc/**"
+            ],
+            "forcedInclude": [
+                "/Users/dune/Development/Arduino/z-uno_components/Z-Uno2/hardware/cores/includes/Arduino.h"
+            ],
+            "defines": [],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "/Users/dune/Development/Arduino/z-uno_components/Z-Uno2/tools/gcc/bin/arm-none-eabi-gcc"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,27 @@
+{
+  "entity": {
+    "sensor": {
+      "pressure_trend": {
+        "default": "mdi:gauge"
+      },
+      "next_hour_forecast": {
+        "default": "mdi:weather-partly-cloudy",
+        "state": {
+          "No precipitation expected": "mdi:weather-sunny",
+          "Light rain now": "mdi:weather-rainy",
+          "Moderate rain now": "mdi:weather-pouring",
+          "Heavy rain now": "mdi:weather-pouring",
+          "Light snow now": "mdi:weather-snowy",
+          "Moderate snow now": "mdi:weather-snowy-heavy",
+          "Heavy snow now": "mdi:weather-snowy-heavy",
+          "Light sleet now": "mdi:weather-snowy-rainy",
+          "Moderate sleet now": "mdi:weather-snowy-rainy",
+          "Heavy sleet now": "mdi:weather-snowy-rainy",
+          "Light hail now": "mdi:weather-hail",
+          "Moderate hail now": "mdi:weather-hail",
+          "Heavy hail now": "mdi:weather-hail"
+        }
+      }
+    }
+  }
+}

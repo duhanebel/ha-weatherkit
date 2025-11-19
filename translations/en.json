@@ -1,0 +1,64 @@
+{
+    "config": {
+        "error": {
+            "already_configured": "Location is already configured",
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error",
+            "unsupported_location": "Apple WeatherKit does not provide data for this location."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "key_id": "Key ID",
+                    "key_pem": "Private key (.p8)",
+                    "location": "Location",
+                    "name": "Name",
+                    "service_id": "Service ID",
+                    "team_id": "Apple team ID"
+                },
+                "description": "Enter your location details and WeatherKit authentication credentials below.",
+                "title": "WeatherKit setup"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "next_hour_forecast": {
+                "name": "Next hour forecast",
+                "state": {
+                    "no_precipitation": "No precipitation expected",
+                    "light_rain": "Light rain",
+                    "moderate_rain": "Moderate rain",
+                    "heavy_rain": "Heavy rain",
+                    "light_snow": "Light snow",
+                    "moderate_snow": "Moderate snow",
+                    "heavy_snow": "Heavy snow",
+                    "light_sleet": "Light sleet",
+                    "moderate_sleet": "Moderate sleet",
+                    "heavy_sleet": "Heavy sleet",
+                    "light_hail": "Light hail",
+                    "moderate_hail": "Moderate hail",
+                    "heavy_hail": "Heavy hail",
+                    "light_precipitation": "Light precipitation",
+                    "moderate_precipitation": "Moderate precipitation",
+                    "heavy_precipitation": "Heavy precipitation"
+                },
+                "forecast": {
+                    "now": "{precipitation} now",
+                    "for_next_minutes": "{precipitation} for the next {duration} minutes",
+                    "in_minutes": "{precipitation} in {minutes} minutes",
+                    "starting_in_minutes_lasting": "{precipitation} starting in {start_minutes} minutes, lasting {duration} minutes"
+                }
+            },
+            "pressure_trend": {
+                "name": "Pressure trend",
+                "state": {
+                    "falling": "Falling",
+                    "rising": "Rising",
+                    "steady": "Steady"
+                }
+            }
+        }
+    }
+}
